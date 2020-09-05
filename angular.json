@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "actividad5septiembre"
+    }
+  },
+  "defaultProject": "actividad5septiembre",
+  "cli": {
+    "analytics": "acc198e9-034b-4fe3-a889-0c3fdd497603"
+  }
 }
