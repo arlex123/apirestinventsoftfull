@@ -4,3 +4,14 @@
     <li>three 3</li>
     <li>three 5</li>
   </ul>
+
+  <div id="div">
+    <table BORDER=5 CELLSPACING=15 CELLPADDING=20 class="egt">
+      <tr>
+        <th>Nom Trabajo</th>
+      </tr>
+      <tr>
+        <td><li *ngFor="let item of agenda; index as i;">{{item.trabajo.nombre_trabajo}}</li></td>
+      </tr>
+    </table>
+  </div>

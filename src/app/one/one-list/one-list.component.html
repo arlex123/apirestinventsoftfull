@@ -4,4 +4,24 @@
     <li>one 3</li>
     <li>one 5</li>
   </ul>
-  
+
+  <div id="div">
+    <table BORDER=5 CELLSPACING=15 CELLPADDING=20 class="egt">
+      <tr>
+        <th>Id Agenda</th>
+        <th>Fecha</th>
+        <th>Hora Inicial</th>
+        <th>Hora Final</th>
+        <th>Id Espacio</th>
+        <th>Id Trabajo</th>
+      </tr>
+      <tr>
+        <td><li  *ngFor="let item of agenda; index as i;">{{item.id_trabajo_agenda}}</li></td>
+        <td><li  *ngFor="let item of agenda; index as i;">{{item.fecha}}</li></td>
+        <td><li  *ngFor="let item of agenda; index as i;">{{item.hora_inicio}}</li></td>
+        <td><li  *ngFor="let item of agenda; index as i;">{{item.hora_fin}}</li></td>
+        <td><li  *ngFor="let item of agenda; index as i;">{{item.id_espacio}}</li></td>
+        <td><li  *ngFor="let item of agenda; index as i;">{{item.id_trabajo}}</li></td>
+      </tr>
+    </table>
+  </div>
